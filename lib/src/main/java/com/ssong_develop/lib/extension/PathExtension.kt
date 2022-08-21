@@ -78,7 +78,7 @@ fun Path.drawLinearBottomZigZag(
     waveCount: Int,
     size: Size
 ) {
-    val waveLength = size.width / (waveCount)
+    val waveLength = size.width / waveCount
     val waveHeight = waveLength / 3
 
     var currentX: Float = 0f
@@ -119,14 +119,14 @@ fun Path.drawSquareBottomZigZag(
     currentX -= (waveLength / 3)
     lineTo(
         currentX, size.height
-    ) // initial
+    )
     for (i in 1..waveCount) {
-        lineTo(currentX, size.height - waveHeight) // 1
+        lineTo(currentX, size.height - waveHeight)
         currentX -= (waveLength / 2)
-        lineTo(currentX, size.height - waveHeight) // 2
-        lineTo(currentX, size.height) // 3
+        lineTo(currentX, size.height - waveHeight)
+        lineTo(currentX, size.height)
         currentX -= (waveLength / 2)
-        lineTo(currentX, size.height) // 4
+        lineTo(currentX, size.height)
     }
     lineTo(0f, 0f)
     close()
