@@ -28,6 +28,33 @@ View Bottom에 지그재그 모양을 표현함으로써 찢어짐을 표현하�
 
 ## How To Use
 
+```kotlin
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val typeList = listOf(ZigZagType.SQUARE,ZigZagType.CIRCULAR,ZigZagType.LINEAR)
+        val shape = BottomZigZagShape(
+            zigZagType = typeList.random(),
+            waveCount = 15
+        )
+        setContent {
+            ZigZagShapeTheme {
+                // A surface container using the 'background' color from the theme
+                Surface(
+                    modifier = Modifier,
+                    color = Color.Transparent
+                ) {
+                    Card(
+                        modifier = Modifier.width(300.dp).height(300.dp),
+                        shape = shape
+                    ) {
+
+                    }
+                }
+            }
+        }
+    }
+```
+
 
 
 ## Comment
