@@ -1,5 +1,5 @@
 package com.ssong_develop.lib.type
 
-enum class PathType {
+enum class ZigZagType {
     CIRCULAR, LINEAR, SQUARE
 }

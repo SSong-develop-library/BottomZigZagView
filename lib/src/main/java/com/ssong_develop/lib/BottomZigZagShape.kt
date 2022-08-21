@@ -6,10 +6,10 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.LayoutDirection
 import com.ssong_develop.lib.painter.BottomZigZagPainter
-import com.ssong_develop.lib.type.PathType
+import com.ssong_develop.lib.type.ZigZagType
 
 class BottomZigZagShape(
-    private val pathType: PathType,
+    private val zigZagType: ZigZagType,
     private val waveCount: Int = 15
 ) : Shape {
     override fun createOutline(
@@ -18,7 +18,7 @@ class BottomZigZagShape(
         density: Density
     ): Outline {
         val pathPainter = BottomZigZagPainter(
-            pathType = pathType,
+            zigZagType = zigZagType,
             size = size,
             waveCount = waveCount
         )
