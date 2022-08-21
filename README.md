@@ -8,7 +8,7 @@ View Bottom에 지그재그 모양을 표현함으로써 찢어짐을 표현하�
 
 ### Squre
 
-<img src="https://github.com/SSong-develop/BottomZigZagView/blob/master/preview/preview1_square.png" width="400" height="600">
+<img src="https://github.com/SSong-develop/BottomZigZagView/blob/master/preview/preview1_square.png" width="300" height="600">
 
 ----------
 
@@ -16,7 +16,7 @@ View Bottom에 지그재그 모양을 표현함으로써 찢어짐을 표현하�
 
 ### Curve
 
-<img src="https://github.com/SSong-develop/BottomZigZagView/blob/master/preview/preview2_curve.png" width="400" height="600">
+<img src="https://github.com/SSong-develop/BottomZigZagView/blob/master/preview/preview2_curve.png" width="300" height="600">
 
 ---------
 
@@ -24,7 +24,7 @@ View Bottom에 지그재그 모양을 표현함으로써 찢어짐을 표현하�
 
 ### Linear
 
-<img src="https://github.com/SSong-develop/BottomZigZagView/blob/master/preview/preview3_linear.png" width="400" height="600">
+<img src="https://github.com/SSong-develop/BottomZigZagView/blob/master/preview/preview3_linear.png" width="300" height="600">
 
 ## How To Use
 
