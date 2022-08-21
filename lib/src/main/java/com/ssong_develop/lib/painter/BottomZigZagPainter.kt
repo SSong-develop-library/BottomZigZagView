@@ -12,7 +12,7 @@ class BottomZigZagPainter(
     private val size: Size,
     private val waveCount: Int
 ) : BottomZigZagPathPainter {
-    override fun drawZigZagBottomPath(): Path {
+    override fun drawBottomZigZagPath(): Path {
         val path = Path()
         when (pathType) {
             PathType.CIRCULAR -> path.drawCircularBottomZigZag(waveCount, size)

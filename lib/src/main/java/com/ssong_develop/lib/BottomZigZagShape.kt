@@ -23,7 +23,7 @@ class BottomZigZagShape(
             waveCount = waveCount
         )
         return Outline.Generic(
-            path = pathPainter.drawZigZagBottomPath()
+            path = pathPainter.drawBottomZigZagPath()
         )
     }
 }
